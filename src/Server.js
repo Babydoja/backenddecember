@@ -9,7 +9,7 @@ const mongoose = require("mongoose")
 
 
 app.use(cors(
-    {  origin:["http://localhost:3001"] }
+    {  origin:["http://localhost:3001",'https://crudss-delta.vercel.app/'] }
    ))
 //middleware
 app.use(express.json())
